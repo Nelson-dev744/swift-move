@@ -262,9 +262,18 @@
 @media screen and (max-width: 450px){
     .swiftmove-navbar{
         display: flex;
+        background-color: grey;
     }
     .swiftmove-navbar a{
         display: none;
+    }
+    
+    .swiftmove-navbar i{
+        display: none;
+    }
+
+    .swiftmove-navbar h2{
+        color: white;
     }
 
     .hero{
